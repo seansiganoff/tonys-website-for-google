@@ -1,0 +1,155 @@
+
+
+.services-container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  0;
+    padding: 0 0 1rem 0;
+    background-color: rgb(253, 253, 253);
+}
+
+.services-video-wrapper {
+    text-align: center;
+    padding: 0;
+    display: block;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+
+
+ 
+.services-video-wrapper video {
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    z-index: 1;
+}
+
+.services-banner {
+    width: 100%;
+}
+
+
+.services {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 1rem 3rem 1rem;
+}
+.box {
+    display: flex;
+}
+.services-heading {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.555), rgb(251, 141, 7), rgba(255, 255, 255, 0.555));
+    border-top: 2px solid rgb(236, 236, 236);
+    padding: 1rem 0 3px 0;
+    width: 100%;
+    color: white;
+}
+
+.services-heading-h3 {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 0 auto;
+    word-break: keep-all;
+    text-align: center;
+    font-size: 7VW;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 6vw;
+}
+.services-list {
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 3rem;
+    font-weight: 700;
+}
+.services-banner button:hover {
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.582);
+    scale: 1.02;
+}
+
+
+
+
+
+.services-text-div {
+    width: 80%;
+    margin: 5px auto;
+    padding: 3rem 7px 3rem 7px;
+    transition: all 3s ease-in-out;
+    animation: 3s;
+    border-radius: 15px;
+    
+}
+
+.photos-btn {
+    width: 100%;
+    background-color: rgb(116, 227, 5);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    padding: 4px;
+    font-size: large;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .services {
+        width: 100%;
+    }
+    .services-banner {
+        width: 100%;
+    }
+    .services-banner button {
+        font-size: xx-large;
+    }
+    .services-text-div {
+        width: 94%;
+    }
+    
+   .services-list {
+    font-size: large;
+   }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .services-banner {
+        font-size: xx-large;
+    }
+
+    .services-banner button {
+        padding: 1rem 0 3px 8px;
+    }
+    .services-text-div {
+        padding-bottom: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .services {
+        padding: 3rem 8px;
+    }
+    
+}
+
+

@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+.about-container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.about-banner {
+    width: 80%;
+}
+
+.about-heading {
+    border: none;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    word-break: keep-all;
+    text-align: center;
+    padding: 1rem 0 3px 0;
+    transition: all 0.2s ease-in;
+    border-top: 2px solid rgb(236, 236, 236);
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.555), rgb(251, 141, 7), rgba(255, 255, 255, 0.555));
+    font-size: 7VW;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10vw;
+}
+
+
+
+.about-text-div {
+    width: 80%;
+    margin: 5px auto;
+    padding: 3rem 7px 3rem 7px;
+    transition: all 3s ease-in-out;
+    animation: 3s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.about-text-div p {
+    padding: 0 7px;
+    font-size: large;
+}
+
+.about-close-btn {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .about-text-div, .about-banner {
+        width: 94%;
+    }
+    .about-text-div {
+        padding: 1rem 0px 0 0px;
+    }
+    .about-banner button {
+        font-size: xx-large;
+    }
+   
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about-banner button {
+        padding: 1rem 0 3px 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .about-text-div p {
+        font-size: medium;
+    }
+}
+
